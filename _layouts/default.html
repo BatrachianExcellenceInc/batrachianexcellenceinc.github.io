@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+
+    <body>
+    <div class="shell">
+        <header>
+            <span class="ribbon-outer">
+                <span class="ribbon-inner">
+                    <h1>{{ site.title }}</h1>
+                    <h2>{{ site.tagline }}</h2>
+                </span>
+                <span class="left-tail"></span>
+                <span class="right-tail"></span>
+            </span>
+        </header>
+
+        <div id="no-downloads">
+            <span class="inner">
+            </span>
+        </div>
+
+        <span class="banner-fix"></span>
+
+        <section id="main_content">
+            {{ content }}
+        </section>
+
+        <footer>
+            <small>
+                &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+            </small>
+            <span class="ribbon-outer">
+                <span class="ribbon-inner">
+                    <p>Projects by <a href="https://github.com/mjtorn">mjtorn</a> can be found on <a href="https://github.com/mjtorn">GitHub</a></p>
+                </span>
+                <span class="left-tail"></span>
+                <span class="right-tail"></span>
+            </span>
+            <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+            <span class="octocat"></span>
+        </footer>
+    </div>
+    </body>
+</html>
