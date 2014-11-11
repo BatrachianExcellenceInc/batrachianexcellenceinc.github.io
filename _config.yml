@@ -1,0 +1,14 @@
+# Permalinks
+permalink: pretty
+relative_permalinks: true
+# Setup
+title: Batrachian Excellence
+tagline: The Great Toad waits, the Great Toad observes, the Great Toad rules sovereign
+url: http://mjtorn.github.io/
+paginate: 1
+baseurl: /
+author:
+    name: Markus Törnqvist
+    url: https://github.com/mjtorn
+    email: mjt@batrachianexcellence.com
+
