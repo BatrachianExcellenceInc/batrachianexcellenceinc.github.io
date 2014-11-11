@@ -23,6 +23,14 @@
         <span class="banner-fix"></span>
 
         <section id="main_content">
+            <p>
+            {% for page in site.pages_list %}
+              &nbsp;&nbsp;&nbsp;
+              <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+            {% endfor %}
+            </p>
+            <hr />
+
             {{ content }}
         </section>
 

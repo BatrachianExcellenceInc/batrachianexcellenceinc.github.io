@@ -12,3 +12,8 @@ author:
     url: https://github.com/mjtorn
     email: mjt@batrachianexcellence.com
 
+pages_list:
+  About: '/'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
