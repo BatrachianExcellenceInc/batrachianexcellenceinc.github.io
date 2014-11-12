@@ -8,5 +8,6 @@ layout: default
   </h3>
   {{ content }}
   <em> <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time> </em>
+  <a href="/authors/{{ page.author }}">{{ page.author }}</a>
 </article>
 

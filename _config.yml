@@ -17,3 +17,7 @@ pages_list:
   Archive: '/archive'
   Feed: '/atom.xml'
 
+collections:
+  authors:
+    output: true
+
